@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStatusReport" targetNamespace="http://tempuri.org/dsStatusReport.xsd" xmlns:mstns="http://tempuri.org/dsStatusReport.xsd" xmlns="http://tempuri.org/dsStatusReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="centerfirebulletweighingConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="centerfirebulletweighingConnectionString (Settings)" PropertyReference="ApplicationSettings.CenterFireBulletWeighing.Properties.Settings.GlobalReference.Default.centerfirebulletweighingConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblLotsTableAdapter" GeneratorDataComponentClassName="tblLotsTableAdapter" Name="tblLots" UserDataComponentName="tblLotsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="centerfirebulletweighingConnectionString (Settings)" DbObjectName="tblLots" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT lot_ID, lot_Product, lot_Position, lot_Barrel, lot_LoadDateTime, lot_DownTime, lot_AvgGPH, lot_CheckDateTime, lot_EstimatedPullDateTime
+FROM            tblLots
+WHERE        (lot_PullDateTime IS NULL)
+ORDER BY lot_EstimatedPullDateTime</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="lot_ID" DataSetColumn="lot_ID" />
+              <Mapping SourceColumn="lot_Product" DataSetColumn="lot_Product" />
+              <Mapping SourceColumn="lot_Barrel" DataSetColumn="lot_Barrel" />
+              <Mapping SourceColumn="lot_Position" DataSetColumn="lot_Position" />
+              <Mapping SourceColumn="lot_LoadDateTime" DataSetColumn="lot_LoadDateTime" />
+              <Mapping SourceColumn="lot_CheckDateTime" DataSetColumn="lot_CheckDateTime" />
+              <Mapping SourceColumn="lot_EstimatedPullDateTime" DataSetColumn="lot_EstimatedPullDateTime" />
+              <Mapping SourceColumn="lot_AvgGPH" DataSetColumn="lot_AvgGPH" />
+              <Mapping SourceColumn="lot_DownTime" DataSetColumn="lot_DownTime1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStatusReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsStatusReport" msprop:Generator_DataSetName="dsStatusReport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblLots" msprop:Generator_UserTableName="tblLots" msprop:Generator_RowDeletedName="tblLotsRowDeleted" msprop:Generator_RowChangedName="tblLotsRowChanged" msprop:Generator_RowClassName="tblLotsRow" msprop:Generator_RowChangingName="tblLotsRowChanging" msprop:Generator_RowEvArgName="tblLotsRowChangeEvent" msprop:Generator_RowEvHandlerName="tblLotsRowChangeEventHandler" msprop:Generator_TableClassName="tblLotsDataTable" msprop:Generator_TableVarName="tabletblLots" msprop:Generator_RowDeletingName="tblLotsRowDeleting" msprop:Generator_TablePropName="tblLots">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lot_ID" msprop:Generator_UserColumnName="lot_ID" msprop:Generator_ColumnPropNameInRow="lot_ID" msprop:Generator_ColumnVarNameInTable="columnlot_ID" msprop:Generator_ColumnPropNameInTable="lot_IDColumn" type="xs:int" />
+              <xs:element name="lot_Product" msprop:Generator_UserColumnName="lot_Product" msprop:Generator_ColumnPropNameInRow="lot_Product" msprop:Generator_ColumnVarNameInTable="columnlot_Product" msprop:Generator_ColumnPropNameInTable="lot_ProductColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lot_Barrel" msprop:Generator_UserColumnName="lot_Barrel" msprop:Generator_ColumnPropNameInRow="lot_Barrel" msprop:Generator_ColumnVarNameInTable="columnlot_Barrel" msprop:Generator_ColumnPropNameInTable="lot_BarrelColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lot_Position" msprop:Generator_UserColumnName="lot_Position" msprop:Generator_ColumnPropNameInRow="lot_Position" msprop:Generator_ColumnVarNameInTable="columnlot_Position" msprop:Generator_ColumnPropNameInTable="lot_PositionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lot_LoadDateTime" msprop:Generator_UserColumnName="lot_LoadDateTime" msprop:Generator_ColumnPropNameInRow="lot_LoadDateTime" msprop:Generator_ColumnVarNameInTable="columnlot_LoadDateTime" msprop:Generator_ColumnPropNameInTable="lot_LoadDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="lot_CheckDateTime" msprop:Generator_UserColumnName="lot_CheckDateTime" msprop:Generator_ColumnPropNameInRow="lot_CheckDateTime" msprop:Generator_ColumnVarNameInTable="columnlot_CheckDateTime" msprop:Generator_ColumnPropNameInTable="lot_CheckDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="lot_EstimatedPullDateTime" msprop:Generator_UserColumnName="lot_EstimatedPullDateTime" msprop:Generator_ColumnPropNameInRow="lot_EstimatedPullDateTime" msprop:Generator_ColumnVarNameInTable="columnlot_EstimatedPullDateTime" msprop:Generator_ColumnPropNameInTable="lot_EstimatedPullDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="lot_AvgGPH" msprop:Generator_UserColumnName="lot_AvgGPH" msprop:Generator_ColumnPropNameInRow="lot_AvgGPH" msprop:Generator_ColumnVarNameInTable="columnlot_AvgGPH" msprop:Generator_ColumnPropNameInTable="lot_AvgGPHColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="lot_DownTime1" msdata:Caption="lot_DownTime" msprop:Generator_UserColumnName="lot_DownTime1" msprop:Generator_ColumnPropNameInRow="lot_DownTime1" msprop:Generator_ColumnVarNameInTable="columnlot_DownTime1" msprop:Generator_ColumnPropNameInTable="lot_DownTime1Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblLots" />
+      <xs:field xpath="mstns:lot_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

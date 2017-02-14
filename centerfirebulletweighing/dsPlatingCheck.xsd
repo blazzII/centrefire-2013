@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPlatingCheck" targetNamespace="http://tempuri.org/dsPlatingCheck.xsd" xmlns:mstns="http://tempuri.org/dsPlatingCheck.xsd" xmlns="http://tempuri.org/dsPlatingCheck.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="centerfirebulletweighingConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="centerfirebulletweighingConnectionString (Settings)" PropertyReference="ApplicationSettings.CenterFireBulletWeighing.Properties.Settings.GlobalReference.Default.centerfirebulletweighingConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblPlatingCheckTableAdapter" GeneratorDataComponentClassName="tblPlatingCheckTableAdapter" Name="tblPlatingCheck" UserDataComponentName="tblPlatingCheckTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="centerfirebulletweighingConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tblPlaterPositions.position_Number, tblPlaterPositions.position_LotID, tblLots.lot_Product, tblLots.lot_Barrel, tblLots.lot_CheckDateTime, 
+                         tblLots.lot_EstimatedPullDateTime, tblPlatingCheck.platingcheck_GPH
+FROM            ((tblPlaterPositions INNER JOIN
+                         tblLots ON tblPlaterPositions.position_Number = tblLots.lot_Position) INNER JOIN
+                         tblPlatingCheck ON tblLots.lot_ID = tblPlatingCheck.platingcheck_Lot)
+WHERE        (tblLots.lot_PullOperator IS NULL)
+ORDER BY tblLots.lot_CheckDateTime DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="lot_Barrel" DataSetColumn="lot_Barrel" />
+              <Mapping SourceColumn="lot_Product" DataSetColumn="lot_Product" />
+              <Mapping SourceColumn="lot_EstimatedPullDateTime" DataSetColumn="lot_EstimatedPullDateTime" />
+              <Mapping SourceColumn="lot_CheckDateTime" DataSetColumn="lot_CheckDateTime" />
+              <Mapping SourceColumn="position_Number" DataSetColumn="position_Number" />
+              <Mapping SourceColumn="position_LotID" DataSetColumn="position_LotID" />
+              <Mapping SourceColumn="platingcheck_GPH" DataSetColumn="platingcheck_GPH" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPlatingCheck" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPlatingCheck" msprop:Generator_DataSetName="dsPlatingCheck" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblPlatingCheck" msprop:Generator_UserTableName="tblPlatingCheck" msprop:Generator_RowDeletedName="tblPlatingCheckRowDeleted" msprop:Generator_RowChangedName="tblPlatingCheckRowChanged" msprop:Generator_RowClassName="tblPlatingCheckRow" msprop:Generator_RowChangingName="tblPlatingCheckRowChanging" msprop:Generator_RowEvArgName="tblPlatingCheckRowChangeEvent" msprop:Generator_RowEvHandlerName="tblPlatingCheckRowChangeEventHandler" msprop:Generator_TableClassName="tblPlatingCheckDataTable" msprop:Generator_TableVarName="tabletblPlatingCheck" msprop:Generator_RowDeletingName="tblPlatingCheckRowDeleting" msprop:Generator_TablePropName="tblPlatingCheck">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lot_Barrel" msprop:Generator_UserColumnName="lot_Barrel" msprop:Generator_ColumnVarNameInTable="columnlot_Barrel" msprop:Generator_ColumnPropNameInRow="lot_Barrel" msprop:Generator_ColumnPropNameInTable="lot_BarrelColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lot_Product" msprop:Generator_UserColumnName="lot_Product" msprop:Generator_ColumnPropNameInRow="lot_Product" msprop:Generator_ColumnVarNameInTable="columnlot_Product" msprop:Generator_ColumnPropNameInTable="lot_ProductColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lot_EstimatedPullDateTime" msprop:Generator_UserColumnName="lot_EstimatedPullDateTime" msprop:Generator_ColumnPropNameInRow="lot_EstimatedPullDateTime" msprop:Generator_ColumnVarNameInTable="columnlot_EstimatedPullDateTime" msprop:Generator_ColumnPropNameInTable="lot_EstimatedPullDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="lot_CheckDateTime" msprop:Generator_UserColumnName="lot_CheckDateTime" msprop:Generator_ColumnPropNameInRow="lot_CheckDateTime" msprop:Generator_ColumnVarNameInTable="columnlot_CheckDateTime" msprop:Generator_ColumnPropNameInTable="lot_CheckDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="position_Number" msprop:Generator_UserColumnName="position_Number" msprop:Generator_ColumnPropNameInRow="position_Number" msprop:Generator_ColumnVarNameInTable="columnposition_Number" msprop:Generator_ColumnPropNameInTable="position_NumberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="position_LotID" msprop:Generator_UserColumnName="position_LotID" msprop:Generator_ColumnPropNameInRow="position_LotID" msprop:Generator_ColumnVarNameInTable="columnposition_LotID" msprop:Generator_ColumnPropNameInTable="position_LotIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="platingcheck_GPH" msprop:Generator_UserColumnName="platingcheck_GPH" msprop:Generator_ColumnPropNameInRow="platingcheck_GPH" msprop:Generator_ColumnVarNameInTable="columnplatingcheck_GPH" msprop:Generator_ColumnPropNameInTable="platingcheck_GPHColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="lot_DownTime" msprop:Generator_UserColumnName="lot_DownTime" msprop:Generator_ColumnPropNameInRow="lot_DownTime" msprop:Generator_ColumnVarNameInTable="columnlot_DownTime" msprop:Generator_ColumnPropNameInTable="lot_DownTimeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

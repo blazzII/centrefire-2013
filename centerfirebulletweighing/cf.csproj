@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D528E8D-2631-4E1A-A320-630F9061E438}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CenterFireBulletWeighing</RootNamespace>
+    <AssemblyName>CenterFireBulletWeighing</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>CenterFireBulletWeighing.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>86AEC9CB1CC035D45DB9A83877B38709DBF7F98D</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CenterFireBulletWeighing_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>C:\cf2013\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>centrefireapp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsFillByActiveLots.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFillByActiveLots.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPositions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPositions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStatusReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStatusReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditLot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditLot.Designer.cs">
+      <DependentUpon>frmEditLot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlatingCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlatingCheck.Designer.cs">
+      <DependentUpon>frmPlatingCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataUpdates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataUpdates.Designer.cs">
+      <DependentUpon>frmDataUpdates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsLots.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLots.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOperators.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOperators.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPlatingCheck.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlatingCheck.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProductionReport.cs">
+      <DependentUpon>dsProductionReport.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsProductionReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductionReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProducts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCBWMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCBWMainMenu.Designer.cs">
+      <DependentUpon>frmCBWMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductionReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductionReports.Designer.cs">
+      <DependentUpon>frmProductionReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatusReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatusReport.Designer.cs">
+      <DependentUpon>frmStatusReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="histogramarchive\Histo.cs" />
+    <Compile Include="histogramarchive\HistogramExample.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <EmbeddedResource Include="frmEditLot.resx">
+      <DependentUpon>frmEditLot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlatingCheck.resx">
+      <DependentUpon>frmPlatingCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataUpdates.resx">
+      <DependentUpon>frmDataUpdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCBWMainMenu.resx">
+      <DependentUpon>frmCBWMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductionReports.resx">
+      <DependentUpon>frmProductionReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatusReport.resx">
+      <DependentUpon>frmStatusReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="rptStatusReport.rdlc" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dsFillByActiveLots.xsc">
+      <DependentUpon>dsFillByActiveLots.xsd</DependentUpon>
+    </None>
+    <None Include="dsFillByActiveLots.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFillByActiveLots.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFillByActiveLots.xss">
+      <DependentUpon>dsFillByActiveLots.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="cf_tempkey.pfx" />
+    <None Include="dsLots.xsc">
+      <DependentUpon>dsLots.xsd</DependentUpon>
+    </None>
+    <None Include="dsLots.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLots.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsLots.xss">
+      <DependentUpon>dsLots.xsd</DependentUpon>
+    </None>
+    <None Include="dsOperators.xsc">
+      <DependentUpon>dsOperators.xsd</DependentUpon>
+    </None>
+    <None Include="dsOperators.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOperators.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsOperators.xss">
+      <DependentUpon>dsOperators.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlatingCheck.xsc">
+      <DependentUpon>dsPlatingCheck.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlatingCheck.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlatingCheck.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsPlatingCheck.xss">
+      <DependentUpon>dsPlatingCheck.xsd</DependentUpon>
+    </None>
+    <None Include="dsPositions.xsc">
+      <DependentUpon>dsPositions.xsd</DependentUpon>
+    </None>
+    <None Include="dsPositions.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPositions.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsPositions.xss">
+      <DependentUpon>dsPositions.xsd</DependentUpon>
+    </None>
+    <None Include="dsProductionReport.xsc">
+      <DependentUpon>dsProductionReport.xsd</DependentUpon>
+    </None>
+    <None Include="dsProductionReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductionReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProductionReport.xss">
+      <DependentUpon>dsProductionReport.xsd</DependentUpon>
+    </None>
+    <None Include="dsProducts.xsc">
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </None>
+    <None Include="dsProducts.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProducts.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsProducts.xss">
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </None>
+    <None Include="dsStatusReport.xsc">
+      <DependentUpon>dsStatusReport.xsd</DependentUpon>
+    </None>
+    <None Include="dsStatusReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStatusReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsStatusReport.xss">
+      <DependentUpon>dsStatusReport.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\mycomputer.png" />
+    <None Include="Resources\flag-green.png" />
+    <None Include="Resources\applications-science.png" />
+    <None Include="Resources\applications-internet.png" />
+    <None Include="Resources\1260228368_blockdevice.png" />
+    <None Include="Resources\1260226969_blockdevice.png" />
+    <None Include="Resources\1260226957_lockstart_session.png" />
+    <None Include="Resources\1257268146_file-manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="centerfirebulletweighing.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="centrefireapp.ico" />
+    <Content Include="Resources\centrefireapp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

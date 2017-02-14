@@ -1,0 +1,119 @@
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\centerfirebulletweighing.accdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.config
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.dataConnTestBed.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmDataUpdates.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmCBWMainMenu.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmProductionReports.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmStatusReport.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.Properties.Resources.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.testing.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\cf.csproj.GenerateResource.Cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\CenterFireBulletWeighing1\CenterFireBulletWeighing\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\centerfirebulletweighing.accdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\Properties\AssemblyInfo.cs
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.config
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.dataConnTestBed.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmDataUpdates.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmCBWMainMenu.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmProductionReports.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmStatusReport.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.Properties.Resources.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.testing.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\cf.csproj.GenerateResource.Cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2008\Projects\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.dataConnTestBed.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmDataUpdates.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmCBWMainMenu.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmProductionReports.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmStatusReport.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.Properties.Resources.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.testing.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\cf.csproj.GenerateResource.Cache
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.cache
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.compiled
+E:\professional\CENTERFIRE\cf\cf\centerfirebulletweighing\bin\Debug\CenterFireBulletWeighing.exe.config
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\centerfirebulletweighing.accdb
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\Properties\AssemblyInfo.cs
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.manifest
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.application
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.pdb
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\cf.csprojResolveAssemblyReference.cache
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe.manifest
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.application
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmEditLot.resources
+E:\professional\CENTERFIRE\cf\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmLogin.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\centerfirebulletweighing.accdb
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.config
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.application
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.pdb
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\cf.csprojResolveAssemblyReference.cache
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmEditLot.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmLogin.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.dataConnTestBed.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmDataUpdates.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmCBWMainMenu.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmProductionReports.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmStatusReport.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.Properties.Resources.resources
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\cf.csproj.GenerateResource.Cache
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.cache
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.compiled
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.application
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+C:\Users\Jason Blazzard\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.config
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\centerfirebulletweighing.accdb
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.application
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.pdb
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\cf.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmEditLot.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmLogin.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.dataConnTestBed.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmDataUpdates.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmCBWMainMenu.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmProductionReports.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.frmStatusReport.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.Properties.Resources.resources
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\cf.csproj.GenerateResource.Cache
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.cache
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\RdlCompile.compiled
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe.manifest
+C:\Users\jason\Documents\Visual Studio 2012\Projects\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.application
+I:\[blazz•tech]\cf\CenterFireBulletWeighing\bin\Debug\CenterFireBulletWeighing.exe.config
+I:\[blazz•tech]\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.exe
+I:\[blazz•tech]\cf\CenterFireBulletWeighing\obj\Debug\CenterFireBulletWeighing.pdb
